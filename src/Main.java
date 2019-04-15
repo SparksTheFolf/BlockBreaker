@@ -1,7 +1,8 @@
 import javax.swing.JFrame;
 
+
 public class Main {
-	public static void main(String[] args ) {
+	public static void main(String[] args){
 		JFrame frame = new JFrame("Block Breaker");
 		
 		BlockBreakerPanel panel = new BlockBreakerPanel();
@@ -11,14 +12,8 @@ public class Main {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		frame.setVisible(true);
-		frame.setSize(490, 600);
+		frame.setSize(490,600);
 		
 		frame.setResizable(false);
-		
-	}
-
-	private static void setDefaultCloseOperation(int exitOnClose) {
-		// TODO Auto-generated method stub
-		
 	}
 }
